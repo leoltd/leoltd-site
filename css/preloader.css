@@ -124,9 +124,10 @@
 		}
 	}
 	.cssload{
-		position: absolute;
-		left: 49%;
-		top: 45%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100vh;
 	}
 	.indexload_animation{
 		position: absolute;
