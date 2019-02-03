@@ -102,6 +102,7 @@
 		<script src="js/neotext.js"></script>
 		<!--<script src="js/timer.js"></script>-->
 		<script type="text/javascript">
+		document.oncontextmenu=function(e){return false};
 		jQuery(function(){
 			jQuery("a").lightBox({
 				overlayBgColor: '#FFF',

@@ -33,14 +33,22 @@ setcookie('intro', 'true');
 	top: 60%;
 	left: 55%;
 }
+.dud {
+  color: #757575;
+}
 </style>
 <body>
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js'></script>
     <script src="js/intro.js"></script>
-	<text id="text2">Group</text>
+
+	<div class="container">
+		<div class="text" id="text2">Group</div>
+	</div>
 </body>
 </html>
 <script>
+document.oncontextmenu=function(e){return false};
+
 window.onkeydown = function (e) {
 	console.log(e.keyCode);
 	goTo();
@@ -62,3 +70,4 @@ setTimeout(animation, 4000);
 setTimeout(animationOut, 6000);
 setTimeout(goTo, 9000);
 </script>
+<script src="js/neotextforintro.js"></script>
