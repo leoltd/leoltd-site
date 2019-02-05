@@ -6,7 +6,8 @@ if(intro == false){
 	function preloaderAnimation(){
 		$("#indexload_animation").fadeOut(1000);
 	}
-	setTimeout(preloaderAnimation, 100);
+	//setTimeout(preloaderAnimation, 100);
+	document.addEventListener("DOMContentLoaded", preloaderAnimation);
 }else{
 	preloader.style = 'display: none;'
 }
