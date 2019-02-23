@@ -30,7 +30,7 @@ if(!isset($_COOKIE['ip'])){
     }
     function getOS() {
         $user_agent = $_SERVER["HTTP_USER_AGENT"];
-        $os_platform    =   "Unknown OS Platform";
+        $os_platform = $user_agent;
 		
         $os_array = array(
                 '/windows nt 10/i'     =>  'Windows 10',
