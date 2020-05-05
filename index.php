@@ -44,12 +44,15 @@
 	
 	
 	<body>
+		<script src="js/waterMarkDeleter.js"></script>
+		
 		<div class="indexload_animation" id="indexload_animation" style="">
 			<div class="cssload">
 				<div class="cssload-loader">Leo Co., Ltd.</div>
 			</div>
 		</div>
 		<script src="js/preloader.js"></script>
+		
 		<div class="container demo-1">
 			<div class="content">
 				<div id="large-header" class="large-header">
@@ -100,6 +103,8 @@
 		<script src="js/clock.js"></script>
 		<script src="js/test.js"></script>
 		<script src="js/neotext.js"></script>
+		<script src="js/noCopy.js"></script>
+		<script src="js/WHO_ARE_YOU.js"></script>
 		<!--<script src="js/timer.js"></script>-->
 		<script type="text/javascript">
 		document.oncontextmenu=function(e){return false};

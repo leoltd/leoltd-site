@@ -1,7 +1,7 @@
-var day = ["день", "дня", "дней"];
-var hour = ["час", "часа", "часов"];
-var minute = ["минута", "минуты", "минут"];
-var second = ["секунда", "секунды", "секунд"];
+var day = ["day", "days", "days"];
+var hour = ["hour", "hours", "hours"];
+var minute = ["minute", "minutes", "minutes"];
+var second = ["second", "seconds", "seconds"];
 
 function num2word(num,words) {
 	num = num % 100;

@@ -21,7 +21,7 @@
 		</div>
 		<script src="preloader.js"></script>
 		<div class="title">
-			<h1 id="h1">До дня рождения<br/><div id="timer">00:00:00</div></h1>
+			<h1 id="h1">To your birthday<br/><div id="timer">00:00:00</div></h1>
 		</div>
 	</body>
 	<script src="timer.js"></script>
